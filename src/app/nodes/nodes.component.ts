@@ -14,6 +14,6 @@ export class NodesComponent implements OnInit {
   }
 
   onClickButton(index): void {
-    this.classes[index] = !this.classes[index]
+    this.classes[index] = !this.classes[index];
   }
 }

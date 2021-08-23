@@ -4,7 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NodesComponent } from './nodes/nodes.component';
-// import { MatAccordion } from '@angular/material/expansion';
+import {RouterModule} from '@angular/router';
 
 
 @NgModule({
@@ -15,7 +15,7 @@ import { NodesComponent } from './nodes/nodes.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // MatAccordion
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

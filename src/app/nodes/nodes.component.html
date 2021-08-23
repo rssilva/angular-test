@@ -1,5 +1,9 @@
 <h1>page 2</h1>
 <div>
+  <a routerLink="/users">users </a>
+  <a [routerLink]="'/users'">users 2</a>
+</div>
+<div>
 
   <button (click)="onClickButton(0)" [class.highlight]="this.classes[0]">hit me!</button>
   <button (click)="onClickButton(1)" [class.highlight]="this.classes[1]">hit me2!</button>

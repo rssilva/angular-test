@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-// import { SomethingModule } from './something/something.module';
 import { SomethingComponent } from './something/something.component';
 import { NodesComponent } from './nodes/nodes.component';
 
